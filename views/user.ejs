@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%=first_name%> <%=last_name%></title>
+  <style>
+    #container {
+      padding: 10px;
+      margin: 10px auto;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      width: max-content;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+    span {
+      padding: 2px 5px;
+      color: goldenrod;
+      background-color: lightgoldenrodyellow;
+      border: 1px solid goldenrod;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1><%=first_name%> <%=last_name%></h1>
+    <img src="<%=avatar%>">
+    <p><%=email%></p>
+  </div>
+</body>
+</html>
